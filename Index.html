@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Cadastro de Personagem</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Cadastro de Personagens</h1>
+    </header>
+    <main>
+        <fieldset>
+            <form action="cadastropersonagem.php" method="GET">
+                <label>Nome </label><input type="text" name="nome"><br><br>
+                
+                Tipo do herói<br>
+                <input type="radio" name="tipo" value="Espadachin">Espadachin<br>
+                <input type="radio" name="tipo" value="Cavaleiro" ><label>Cavaleiro</label><br>
+                <input type="radio" name="tipo" value="Arqueiro"><label>Arqueiro</label><br>
+                <input type="radio" name="tipo" value="Ferreiro"><label>Ferreiro</label><br><br>
+
+                <label>HP </label><input type="number" name="hp"><br><br>
+                <input type="submit" name="botao" value="Cadastrar">
+            </form>
+        </fieldset>
+    </main>
+</body>
+</html>
